@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  client:
+    container_name: client
+    restart: always
+    build:
+      dockerfile: Dockerfile
+      context: ./
+    ports:
+      - "80:80"

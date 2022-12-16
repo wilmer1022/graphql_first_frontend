@@ -1,0 +1,18 @@
+@import "base/base";
+
+// import abstracts
+@import "abstracts/variables";
+@import "abstracts/mixins";
+
+// import utils
+@import "utils/utils";
+
+// import layout
+@import "layout/grid";
+
+// import pages
+@import "pages/login";
+@import "pages/register";
+@import "pages/listPosts";
+@import "pages/errorPage";
+@import "pages/viewPost";
